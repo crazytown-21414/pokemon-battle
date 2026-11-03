@@ -151,13 +151,13 @@ form.addEventListener("submit", async function(event) {
         console.error(error)
     }
 
+});
+
+
 const clearButton = document.getElementById("clear-all");
 
 clearButton.addEventListener("click", function() {
     document.getElementById("battle-log").replaceChildren();
     document.getElementById("message").textContent = "";
     document.getElementById("count").textContent = " 0 battles.";
-});
-
-
 });
